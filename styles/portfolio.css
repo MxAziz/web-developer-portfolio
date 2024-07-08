@@ -1,0 +1,233 @@
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 150px;
+}
+
+
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+    margin-left: 40px;
+
+}
+
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* shared style  */
+
+#rstyle{
+    color: rgb(247, 71, 7);
+}
+
+
+.btn-primary{
+    background-color:rgb(247, 71, 7) ;
+    color: white;
+    font-weight: bolder;
+    padding: 16px 30px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.dark2{
+    color: #474747;
+}
+
+.secondary-bg{
+    background-color: #fff8f3;
+}
+
+
+/* header bg style  */
+
+.header{
+    background-image: url(../web-dev-portfolio/images/developer.png), url(../web-dev-portfolio/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    
+}
+
+
+
+/* banner style */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content{
+    max-width: 580px;    
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    
+}
+
+.banner-description{
+    font-size: 25px;
+    text-align: center;
+}
+
+.profile-pic{
+    width: 580px;
+
+}
+
+.btn2{
+    margin-top: 50px;
+}
+
+/* main style  */
+
+main{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+
+/* about section design */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align:center;
+    margin-top: 130px;
+
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 25px;    
+}
+
+/* about item style  */
+
+.about-all-items{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-item{
+    font-weight: 600;
+
+}
+
+.item-title{
+
+}
+
+.item-description{
+    font-weight: 600;
+
+}
+
+/* what i do  */
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgb(236, 231, 225);
+}
+
+
+
+/* Resume style  */
+.resume{
+    padding: 100px; 
+    border-radius: 10px;   
+}
+
+
+.resume-container{
+    display: flex;
+    gap: 25px;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.btn-cv{
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+
+
+/* footer style  */
+
+.footer-parent{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+    margin-top: 150px;
+
+}
+
+.footer-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+
+}
+
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
